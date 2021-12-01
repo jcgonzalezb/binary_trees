@@ -47,3 +47,14 @@ Write a function that deletes an entire binary tree
 
 [3-binary_tree_delete.c](https://github.com/jcgonzalezb/binary_trees/blob/main/3-binary_tree_delete.c)
 
+### 4. Is leaf
+
+Write a function that checks if a node is a leaf
+
+- Prototype: `int binary_tree_is_leaf(const binary_tree_t *node);`.
+- Where `node` is a pointer to the node to check.
+- Your function must return `1` if `node` is a leaf, otherwise `0`.
+- If `node` is `NULL`, return `0`.
+
+[4-binary_tree_is_leaf.c](https://github.com/jcgonzalezb/binary_trees/blob/main/4-binary_tree_is_leaf.c)
+
