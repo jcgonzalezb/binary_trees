@@ -37,5 +37,13 @@ Write a function that inserts a node as the right-child of another node
 [2-binary_tree_insert_right.c](https://github.com/jcgonzalezb/binary_trees/blob/main/2-binary_tree_insert_right.c)
 
 
+### 3. Delete
 
+Write a function that deletes an entire binary tree
+
+- Prototype: `void binary_tree_delete(binary_tree_t *tree);`.
+- Where `tree` is a pointer to the root node of the tree to delete.
+- If `tree` is `NULL`, do nothing.
+
+[3-binary_tree_delete.c](https://github.com/jcgonzalezb/binary_trees/blob/main/3-binary_tree_delete.c)
 
