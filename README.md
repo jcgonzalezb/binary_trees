@@ -4,13 +4,12 @@
 
 Binary Tree is a special datastructure used for data storage purposes. A binary tree has a special condition that each node can have a maximum of two children. A binary tree has the benefits of both an ordered array and a linked list as search is as quick as in a sorted array and insertion or deletion operation are as fast as in linked list.
 
+<div align="center">
+<img src=https://github.com/jcgonzalezb/binary_trees/blob/main/assets/images/binary_tree.jpg" alt=“Binary Tree”>
+<p>Binary Tree</p>
+</div>
 
-<p align=“center”>
-<img src="https://github.com/jcgonzalezb/binary_trees/blob/main/assets/images/binary_tree.jpg" alt=“Binary Tree”>
-</p>
-
-
-####Important Terms
+#### Important Terms
 
 Following are the important terms with respect to tree.
 
@@ -36,7 +35,9 @@ Following are the important terms with respect to tree.
 
 [Excerpted from](https://www.tutorialspoint.com/data_structures_algorithms/tree_data_structure.htm)
 
-### 0. New node
+
+### Tasks
+#### 0. New node
 
 Write a function that creates a binary tree node
 
@@ -48,7 +49,7 @@ Write a function that creates a binary tree node
 
 [0-binary_tree_node.c](https://github.com/jcgonzalezb/binary_trees/blob/main/0-binary_tree_node.c)
 
-### 1. Insert left
+#### 1. Insert left
 
 Write a function that inserts a node as the left-child of another node
 
@@ -60,7 +61,7 @@ Write a function that inserts a node as the left-child of another node
 
 [1-binary_tree_insert_left.c](https://github.com/jcgonzalezb/binary_trees/blob/main/1-binary_tree_insert_left.c)
 
-### 2. Insert right
+#### 2. Insert right
 
 Write a function that inserts a node as the right-child of another node
 
@@ -73,7 +74,7 @@ Write a function that inserts a node as the right-child of another node
 [2-binary_tree_insert_right.c](https://github.com/jcgonzalezb/binary_trees/blob/main/2-binary_tree_insert_right.c)
 
 
-### 3. Delete
+#### 3. Delete
 
 Write a function that deletes an entire binary tree
 
@@ -83,7 +84,7 @@ Write a function that deletes an entire binary tree
 
 [3-binary_tree_delete.c](https://github.com/jcgonzalezb/binary_trees/blob/main/3-binary_tree_delete.c)
 
-### 4. Is leaf
+#### 4. Is leaf
 
 Write a function that checks if a node is a leaf
 
@@ -94,7 +95,7 @@ Write a function that checks if a node is a leaf
 
 [4-binary_tree_is_leaf.c](https://github.com/jcgonzalezb/binary_trees/blob/main/4-binary_tree_is_leaf.c)
 
-### 5. Is root
+#### 5. Is root
 
 Write a function that checks if a given node is a root
 
@@ -105,7 +106,7 @@ Write a function that checks if a given node is a root
 
 [5-binary_tree_is_root.c](https://github.com/jcgonzalezb/binary_trees/blob/main/5-binary_tree_is_root.c)
 
-### 6. Pre-order traversal
+#### 6. Pre-order traversal
 
 Write a function that goes through a binary tree using pre-order traversal
 
@@ -116,7 +117,7 @@ Write a function that goes through a binary tree using pre-order traversal
 
 [6-binary_tree_preorder.c](https://github.com/jcgonzalezb/binary_trees/blob/main/6-binary_tree_preorder.c)
 
-### 7. In-order traversal
+#### 7. In-order traversal
 
 Write a function that goes through a binary tree using in-order traversal
 
@@ -127,7 +128,7 @@ Write a function that goes through a binary tree using in-order traversal
 
 [7-binary_tree_inorder.c](https://github.com/jcgonzalezb/binary_trees/blob/main/7-binary_tree_inorder.c)
 
-### 8. Post-order traversal
+####8. Post-order traversal
 
 Write a function that goes through a binary tree using post-order traversal
 
@@ -138,7 +139,7 @@ Write a function that goes through a binary tree using post-order traversal
 
 [8-binary_tree_postorder.c](https://github.com/jcgonzalezb/binary_trees/blob/main/8-binary_tree_postorder.c)
 
-### 9. Height
+#### 9. Height
 
 Write a function that measures the height of a binary tree
 
@@ -148,7 +149,7 @@ Write a function that measures the height of a binary tree
 
 [9-binary_tree_height.c](https://github.com/jcgonzalezb/binary_trees/blob/main/9-binary_tree_height.c)
 
-### 10. Depth
+#### 10. Depth
 
 Write a function that measures the depth of a node in a binary tree
 
@@ -158,7 +159,7 @@ Write a function that measures the depth of a node in a binary tree
 
 [10-binary_tree_depth.c](https://github.com/jcgonzalezb/binary_trees/blob/main/10-binary_tree_depth.c)
 
-### 11. Size
+#### 11. Size
 
 Write a function that measures the size of a binary tree
 
@@ -168,7 +169,7 @@ Write a function that measures the size of a binary tree
 
 [11-binary_tree_size.c](https://github.com/jcgonzalezb/binary_trees/blob/main/11-binary_tree_size.c)
 
-### 12. Leaves
+#### 12. Leaves
 
 Write a function that counts the leaves in a binary tree
 
@@ -179,7 +180,7 @@ Write a function that counts the leaves in a binary tree
 
 [12-binary_tree_leaves.c](https://github.com/jcgonzalezb/binary_trees/blob/main/12-binary_tree_leaves.c)
 
-### 13. Nodes
+#### 13. Nodes
 
 Write a function that counts the nodes with at least 1 child in a binary tree
 
@@ -191,7 +192,7 @@ Write a function that counts the nodes with at least 1 child in a binary tree
 [13-binary_tree_nodes.c](https://github.com/jcgonzalezb/binary_trees/blob/main/13-binary_tree_nodes.c)
 
 
-### 14. Balance factor
+#### 14. Balance factor
 
 Write a function that measures the balance factor of a binary tree
 
@@ -201,7 +202,7 @@ Write a function that measures the balance factor of a binary tree
 
 [14-binary_tree_balance.c](https://github.com/jcgonzalezb/binary_trees/blob/main/14-binary_tree_balance.c)
 
-### 15. Is full
+#### 15. Is full
 
 Write a function that checks if a binary tree is full
 
@@ -211,7 +212,7 @@ Write a function that checks if a binary tree is full
 
 [15-binary_tree_is_full.c](https://github.com/jcgonzalezb/binary_trees/blob/main/15-binary_tree_is_full.c)
 
-### 16. Is perfect
+#### 16. Is perfect
 
 Write a function that checks if a binary tree is perfect
 
@@ -221,7 +222,7 @@ Write a function that checks if a binary tree is perfect
 
 [16-binary_tree_is_perfect.c](https://github.com/jcgonzalezb/binary_trees/blob/main/16-binary_tree_is_perfect.c)
 
-### 17. Sibling
+#### 17. Sibling
 
 Write a function that finds the sibling of a node
 
@@ -233,7 +234,7 @@ Write a function that finds the sibling of a node
 
 [17-binary_tree_sibling.c](https://github.com/jcgonzalezb/binary_trees/blob/main/17-binary_tree_sibling.c)
 
-### 18. Uncle
+#### 18. Uncle
 
 Write a function that finds the uncle of a node
 
@@ -247,5 +248,5 @@ Write a function that finds the uncle of a node
 
 
 ## Authors
-
-- [@katherinepeterson](https://www.github.com/octokatherine)
+- [@jcgonzalezb](https://www.github.com/jcgonzalezb)
+- [@lahincapie](https://www.github.com/lahincapie)
