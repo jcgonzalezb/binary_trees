@@ -21,11 +21,6 @@ int main(void)
 
 
 
-
-
-
-
-
     depth = binary_tree_depth(root);
     printf("Depth of %d: %lu\n", root->n, depth);
     depth = binary_tree_depth(root->right);
